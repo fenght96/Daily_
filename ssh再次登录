@@ -17,3 +17,12 @@ Host key verification failed.
 ssh-keygen -R ip
 
 再次登录即可
+
+
+# Error: Could not find a local HDF5 installation.
+
+# Action: 
+'''python
+brew install hdf5
+HDF5_DIR=/opt/homebrew/Cellar/hdf5/1.14.1 pip install xxx
+'''
